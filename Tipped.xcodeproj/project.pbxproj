@@ -14,6 +14,7 @@
 		3582E7A221C6ED280018745C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3582E7A021C6ED280018745C /* LaunchScreen.storyboard */; };
 		3582E7AD21C6ED290018745C /* TippedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3582E7AC21C6ED290018745C /* TippedTests.swift */; };
 		3582E7B821C6ED290018745C /* TippedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3582E7B721C6ED290018745C /* TippedUITests.swift */; };
+		35CDDB8321C703030055D29D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CDDB8221C703030055D29D /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3582E7B321C6ED290018745C /* TippedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TippedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3582E7B721C6ED290018745C /* TippedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TippedUITests.swift; sourceTree = "<group>"; };
 		3582E7B921C6ED290018745C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35CDDB8221C703030055D29D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		3582E78B21C6ED250018745C = {
 			isa = PBXGroup;
 			children = (
+				35CDDB8221C703030055D29D /* SettingsViewController.swift */,
 				3582E79621C6ED250018745C /* Tipped */,
 				3582E7AB21C6ED290018745C /* TippedTests */,
 				3582E7B621C6ED290018745C /* TippedUITests */,
@@ -258,6 +261,7 @@
 			files = (
 				3582E79A21C6ED250018745C /* ViewController.swift in Sources */,
 				3582E79821C6ED250018745C /* AppDelegate.swift in Sources */,
+				35CDDB8321C703030055D29D /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
